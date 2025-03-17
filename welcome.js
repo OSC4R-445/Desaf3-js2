@@ -2,7 +2,7 @@ function mostrarBienvenida() {
     const nombreUsuario = document.getElementById('nombre').value;
 
     if (nombreUsuario.trim() !== '') {
-        const mensajeBienvenida = `Bienvenido: ${nombreUsuario}`;
+        const mensajeBienvenida = `Bienvenido: ${nombreUsuario.trim()}`;
 
         alert(mensajeBienvenida);
     }
